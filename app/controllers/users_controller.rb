@@ -18,7 +18,7 @@ class UsersController < ApplicationController
     if @user.update(users_params)
       redirect_to @user, notice: 'Your information saved!'
     else
-      render :show, alert: 'Error updating peercoin address'
+      render :show, alert: 'Error updating UniversityCoin address'
     end
   end
 
@@ -27,7 +27,7 @@ class UsersController < ApplicationController
     if @user
       if params[:unsubscribe]
         @user.update unsubscribed: true
-        flash[:alert] = 'You unsubscribed! Sorry for bothering you. Although, you still can leave us your peercoin address to get your tips.'
+        flash[:alert] = 'You unsubscribed! Sorry for bothering you. Although, you still can leave us your UniversityCoin address to get your tips.'
       end
       sign_in_and_redirect @user, event: :authentication
     else

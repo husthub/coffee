@@ -3,19 +3,19 @@ Peer4commit FAQ
 
 What is Peer4Commit?
 --------------------
-With Peer4Commit you can add projects from GitHub and donate Peercoins to the ones that interest you the most. Anyone that submits code changes and has them accepted will receive Peercoin tips. This helps in providing an incentive for developers to work on important projects that will benefit Peercoin in the future. Peer4commit was adapted by Sigmike from Tip4commit.
+With Peer4Commit you can add projects from GitHub and donate UniversityCoins to the ones that interest you the most. Anyone that submits code changes and has them accepted will receive UniversityCoin tips. This helps in providing an incentive for developers to work on important projects that will benefit UniversityCoin in the future. Peer4commit was adapted by Sigmike from Tip4commit.
 
 What is a Commit?
 -----------------
-Each time someone adds changes to the source code of a supported project, he receives 1% of the project balance. A set of changes is called a "commit". Here is an example commit for Peercoin v0.4: https://github.com/ppcoin/ppcoin/commit/5941effd0085dd26ce9b793ec09dcaffae8e5678
+Each time someone adds changes to the source code of a supported project, he receives 1% of the project balance. A set of changes is called a "commit". Here is an example commit for UniversityCoin v0.4: https://github.com/ppcoin/ppcoin/commit/5941effd0085dd26ce9b793ec09dcaffae8e5678
 
 How do I Receive a Tip for my Commit?
 -------------------------------------
-We use the email address included in the commit to identify the author and notify him. To receive the tip, the author must follow the link in the email he received and set his Peercoin address. If he doesn't do that within 1 month, the tip goes back to the project balance.
+We use the email address included in the commit to identify the author and notify him. To receive the tip, the author must follow the link in the email he received and set his UniversityCoin address. If he doesn't do that within 1 month, the tip goes back to the project balance.
 
 How do I Donate to a Project I Like?
 ------------------------------------
-You can see all supported projects here: http://peer4commit.com/projects. To donate to a specific project, open up the page for that project and just send Peercoins to the address that is displayed. For an example, check out Peercoin's main project page: http://peer4commit.com/projects/19. If the project you want to donate to is not supported yet, go to the supported projects page and just copy/paste its GitHub URL (For example: https://github.com/ppcoin/ppcoin) into the input box above the list. Anyone can add a project to Peer4commit, even if you are not the project maintainer. 99% of your donation will be given as tips. 1% will be kept to host the website and pay the transaction fees.
+You can see all supported projects here: http://peer4commit.com/projects. To donate to a specific project, open up the page for that project and just send UniversityCoins to the address that is displayed. For an example, check out UniversityCoin's main project page: http://peer4commit.com/projects/19. If the project you want to donate to is not supported yet, go to the supported projects page and just copy/paste its GitHub URL (For example: https://github.com/ppcoin/ppcoin) into the input box above the list. Anyone can add a project to Peer4commit, even if you are not the project maintainer. 99% of your donation will be given as tips. 1% will be kept to host the website and pay the transaction fees.
 
 How do I Push my Commits?
 -------------------------
@@ -42,7 +42,7 @@ When the checkbox is active, each new commit generates an "Undecided" tip and th
 * Big: 2%
 * Huge: 5%
 
-The authors are notified when the tip amount is decided (Unless they have recently been notified already, or if they said they don't want any more notification, or if they have configured their Peercoin address). The 2 buttons are only available to project collaborators (Those who can push changes to the supported repository). There should be more options in the future. Your ideas are welcome.
+The authors are notified when the tip amount is decided (Unless they have recently been notified already, or if they said they don't want any more notification, or if they have configured their UniversityCoin address). The 2 buttons are only available to project collaborators (Those who can push changes to the supported repository). There should be more options in the future. Your ideas are welcome.
 
 Do You Have an Audit Page Setup for Peer4commit?
 ------------------------------------------------
@@ -50,7 +50,7 @@ Yes, Peer4commit does have an audit page. It shows different information, such a
 
 What Measures Have Been Taken to Secure the Funds on Peer4Commit?
 -----------------------------------------------------------------
-The project funds are isolated in different accounts in the wallet, so if someone ever finds a way to get more tips than the project balance, Peercoin will not take the funds from another project and will refuse the transaction. Projects with a high balance have a part of its funds moved to cold storage. This is still a manual operation, but will soon be automated. The website runs in an isolated virtual server running only this service.
+The project funds are isolated in different accounts in the wallet, so if someone ever finds a way to get more tips than the project balance, UniversityCoin will not take the funds from another project and will refuse the transaction. Projects with a high balance have a part of its funds moved to cold storage. This is still a manual operation, but will soon be automated. The website runs in an isolated virtual server running only this service.
 
 Conclusion
 -----------
@@ -58,7 +58,7 @@ The commit may not be the best item to identify the value of a contribution, but
 
 Contact
 -------
-If you have any questions, either post them in this thread, message Sigmike on PeercoinTalk.org: http://www.peercointalk.org/index.php?action=profile;u=30141 on Reddit: http://www.reddit.com/user/sigmike or open an issue on GitHub: https://github.com/sigmike/peer4commit/issues.
+If you have any questions, either post them in this thread, message Sigmike on UniversityCoinTalk.org: http://www.peercointalk.org/index.php?action=profile;u=30141 on Reddit: http://www.reddit.com/user/sigmike or open an issue on GitHub: https://github.com/sigmike/peer4commit/issues.
 
 References:
 -----------
