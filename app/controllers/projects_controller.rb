@@ -15,7 +15,7 @@ class ProjectsController < ApplicationController
       return
     end
     if @project.bitcoin_address.nil? and (github_id = @project.github_id).present?
-      label = "#{github_id}@peer4commit"
+      label = "#{github_id}@uvc4commit"
       address = BitcoinDaemon.instance.get_new_address(label)
       @project.update_attributes(bitcoin_address: address, address_label: label)
     end

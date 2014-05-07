@@ -1,9 +1,9 @@
-Peer4commit FAQ
+Uvc4commit FAQ
 ===============
 
-What is Peer4Commit?
+What is Uvc4Commit?
 --------------------
-With Peer4Commit you can add projects from GitHub and donate UniversityCoins to the ones that interest you the most. Anyone that submits code changes and has them accepted will receive UniversityCoin tips. This helps in providing an incentive for developers to work on important projects that will benefit UniversityCoin in the future. Peer4commit was adapted by Sigmike from Tip4commit.
+With Uvc4Commit you can add projects from GitHub and donate UniversityCoins to the ones that interest you the most. Anyone that submits code changes and has them accepted will receive UniversityCoin tips. This helps in providing an incentive for developers to work on important projects that will benefit UniversityCoin in the future. uvc4commit was adapted by Sigmike from Tip4commit.
 
 What is a Commit?
 -----------------
@@ -15,7 +15,7 @@ We use the email address included in the commit to identify the author and notif
 
 How do I Donate to a Project I Like?
 ------------------------------------
-You can see all supported projects here: http://peer4commit.com/projects. To donate to a specific project, open up the page for that project and just send UniversityCoins to the address that is displayed. For an example, check out UniversityCoin's main project page: http://peer4commit.com/projects/19. If the project you want to donate to is not supported yet, go to the supported projects page and just copy/paste its GitHub URL (For example: https://github.com/ppcoin/ppcoin) into the input box above the list. Anyone can add a project to Peer4commit, even if you are not the project maintainer. 99% of your donation will be given as tips. 1% will be kept to host the website and pay the transaction fees.
+You can see all supported projects here: http://uvc4commit.com/projects. To donate to a specific project, open up the page for that project and just send UniversityCoins to the address that is displayed. For an example, check out UniversityCoin's main project page: http://uvc4commit.com/projects/19. If the project you want to donate to is not supported yet, go to the supported projects page and just copy/paste its GitHub URL (For example: https://github.com/ppcoin/ppcoin) into the input box above the list. Anyone can add a project to Uvc4commit, even if you are not the project maintainer. 99% of your donation will be given as tips. 1% will be kept to host the website and pay the transaction fees.
 
 How do I Push my Commits?
 -------------------------
@@ -23,13 +23,13 @@ Getting write access to the "Master" of a project involves that the project main
 
 Make Sure You Read the Project Charter & Tipping Policies Before Starting
 -------------------------------------------------------------------------
-Project maintainers can refuse your commits for several reasons. It is important to read the "Charter" of the project on its GitHub page, which usually provides guidance on which commits and under what rules they would be accepted. For example, there are very strict rules for contributing to the official ppcoin/ppcoin project. A good way to ensure the maintainer is willing to merge your changes is to first create an issue explaining what you're going to do and ask if they would merge a pull request. Wait for an answer before starting. The project owner can also edit the Tipping Policies section on their Peer4commit project page to include more information on what kind of commits will be tipped. So it's important to read both the project charter on GitHub and the tipping policies that are listed on Peer4commit.
+Project maintainers can refuse your commits for several reasons. It is important to read the "Charter" of the project on its GitHub page, which usually provides guidance on which commits and under what rules they would be accepted. For example, there are very strict rules for contributing to the official ppcoin/ppcoin project. A good way to ensure the maintainer is willing to merge your changes is to first create an issue explaining what you're going to do and ask if they would merge a pull request. Wait for an answer before starting. The project owner can also edit the Tipping Policies section on their Uvc4commit project page to include more information on what kind of commits will be tipped. So it's important to read both the project charter on GitHub and the tipping policies that are listed on Uvc4commit.
 
 Can Project Owners Change the Amount Donated to Each Commit?
 ------------------------------------------------------------
 Yes, they have a new button "Change project settings" on the project page along the project name. In this screen they can change 2 things (for now):
 
-* A text describing their tipping policies that will be displayed on the project page on peer4commit.
+* A text describing their tipping policies that will be displayed on the project page on uvc4commit.
 * A checkbox that will put all new tips on hold when commits are found.
 
 When the checkbox is active, each new commit generates an "Undecided" tip and the authors are not notified. The project owners can then click on a new button on the project page to decide the tip amounts. They have these choices:
@@ -44,11 +44,11 @@ When the checkbox is active, each new commit generates an "Undecided" tip and th
 
 The authors are notified when the tip amount is decided (Unless they have recently been notified already, or if they said they don't want any more notification, or if they have configured their UniversityCoin address). The 2 buttons are only available to project collaborators (Those who can push changes to the supported repository). There should be more options in the future. Your ideas are welcome.
 
-Do You Have an Audit Page Setup for Peer4commit?
+Do You Have an Audit Page Setup for Uvc4commit?
 ------------------------------------------------
-Yes, Peer4commit does have an audit page. It shows different information, such as amount donated, available balance, transaction fees, amount in cold storage and includes addresses for each project. You can view the page here: http://peer4commit.com/audit.
+Yes, Uvc4commit does have an audit page. It shows different information, such as amount donated, available balance, transaction fees, amount in cold storage and includes addresses for each project. You can view the page here: http://uvc4commit.com/audit.
 
-What Measures Have Been Taken to Secure the Funds on Peer4Commit?
+What Measures Have Been Taken to Secure the Funds on Uvc4Commit?
 -----------------------------------------------------------------
 The project funds are isolated in different accounts in the wallet, so if someone ever finds a way to get more tips than the project balance, UniversityCoin will not take the funds from another project and will refuse the transaction. Projects with a high balance have a part of its funds moved to cold storage. This is still a manual operation, but will soon be automated. The website runs in an isolated virtual server running only this service.
 
@@ -58,7 +58,7 @@ The commit may not be the best item to identify the value of a contribution, but
 
 Contact
 -------
-If you have any questions, either post them in this thread, message Sigmike on UniversityCoinTalk.org: http://www.peercointalk.org/index.php?action=profile;u=30141 on Reddit: http://www.reddit.com/user/sigmike or open an issue on GitHub: https://github.com/sigmike/peer4commit/issues.
+If you have any questions, either post them in this thread, message Sigmike on UniversityCoinTalk.org: http://www.peercointalk.org/index.php?action=profile;u=30141 on Reddit: http://www.reddit.com/user/sigmike or open an issue on GitHub: https://github.com/sigmike/uvc4commit/issues.
 
 References:
 -----------
