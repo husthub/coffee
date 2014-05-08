@@ -58,7 +58,7 @@ The commit may not be the best item to identify the value of a contribution, but
 
 Contact
 -------
-If you have any questions, either post them in this thread, message icess on bitcointalk.org: https://bitcointalk.org/index.php?action=profile or open an issue on GitHub: https://github.com/husthub/uvc4commit/issues.
+If you have any questions, either post them in this thread, message icess on bitcointalk.org: https://bitcointalk.org/index.php?action=profile;u=224669 or open an issue on GitHub: https://github.com/husthub/uvc4commit/issues.
 
 References:
 -----------
