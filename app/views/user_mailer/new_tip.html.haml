@@ -1,14 +1,14 @@
 %h4 Hello, #{@user.full_name}!
 
-%p You were tipped #{btc_human @tip.amount} for your commit on Project #{@tip.project.full_name}. Please, log in and tell us your UniversityCoin address to get it.
+%p You were tipped #{btc_human @tip.amount} for your commit on Project #{@tip.project.full_name}. Please, log in and tell us your CoffeeCoin address to get it.
 
-%p Your current balance is #{btc_human @user.balance}. If you don't enter a UniversityCoin address your tips will be returned to the project in 30 days.
+%p Your current balance is #{btc_human @user.balance}. If you don't enter a CoffeeCoin address your tips will be returned to the project in 30 days.
 
 %p= link_to 'Sign In', login_users_url(token: @user.login_token)
 
 %p Thanks for contributing to Open Source!
 
-%p= link_to "uvc4commit.com", "http://uvc4commit.com/"
+%p= link_to "coffee4commit.com", "http://coffee4commit.com/"
 
 %p
   %small

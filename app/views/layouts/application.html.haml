@@ -7,10 +7,10 @@
     %meta{content: "", name: "author"}/
     %link{href: "/favicon.ico", rel: "shortcut icon"}/
     
-    %title= "Uvc4Commit — " + (content_for?(:title) ? yield(:title) : "Contribute to Open Source")
+    %title= "Coffee4Commit — " + (content_for?(:title) ? yield(:title) : "Contribute to Open Source")
 
-    %meta{name: 'description', content: (content_for?(:title) ? yield(:title) : "Donate UniversityCoins to open source projects or make commits and get tips for it.")}
-    %meta{name: 'keywords', content: 'open source,contribute,github,community,git,bitcoin,UniversityCoin,uvc,tips,perks'}
+    %meta{name: 'description', content: (content_for?(:title) ? yield(:title) : "Donate CoffeeCoins to open source projects or make commits and get tips for it.")}
+    %meta{name: 'keywords', content: 'open source,contribute,github,community,git,bitcoin,CoffeeCoin,coffee,tips,perks'}
     / %meta{:property => 'og:image', :content => asset_path('logo.png')}
     / %link{:rel => 'image_src', :type => 'image/png', :href => asset_path('logo.png')}
 
@@ -25,7 +25,7 @@
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-50755975-1', 'uvc4commit.com');
+      ga('create', 'UA-50755975-1', 'coffee4commit.com');
       ga('send', 'pageview');
     .container
       .masthead
@@ -39,7 +39,7 @@
               = link_to 'Sign Out', destroy_user_session_path, method: :delete
             - else
               %a{href: user_omniauth_authorize_path(:github)} Sign in
-        %h3.text-muted.code-pro Uvc4Commit
+        %h3.text-muted.code-pro Coffee4Commit
         = render 'common/menu'
         = render_flash_message
       = yield
@@ -47,11 +47,11 @@
       .footer
         %p
           ©
-          = link_to 'Uvc4commit', 'http://uvc4commit.com/', target: '_blank'
-          2014. Source code is available at #{link_to('github', 'https://github.com/husthub/uvc4commit', target: '_blank')},
+          = link_to 'Coffee4commit', 'http://coffee4commit.com/', target: '_blank'
+          2014. Source code is available at #{link_to('github', 'https://github.com/husthub/coffee4commit', target: '_blank')},
           based on #{link_to "Peer4commit", "http://peer4commit.com/"}.
           You can support its development with
-          = link_to('UniversityCoins', 'http://uvc4commit.com/projects/1')
+          = link_to('CoffeeCoins', 'http://coffee4commit.com/projects/1')
           or
           = link_to('bitcoins', 'http://tip4commit.com/projects/738')
     / /container
